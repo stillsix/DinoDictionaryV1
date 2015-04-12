@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.seattleshinebox.dinodictionary.UI.FoodSelectActivity"
+    android:background="#fffff4ce">
+
+    <TextView
+        android:text="@string/foodsourceTitleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dinoDisplay2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/herbivoreFoodButton"
+        android:layout_marginTop="135dp"
+        android:src="@drawable/icon76_2x_herbivore"
+        android:layout_below="@+id/herbivoreFoodButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:contentDescription="@string/herbivoreButtonText"
+        android:cropToPadding="false"
+        android:background="#00000000" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/carnivoreFoodButton"
+        android:src="@drawable/icon76_2x_carnivore"
+        android:layout_alignTop="@+id/herbivoreFoodButton"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:contentDescription="@string/carnivoreButtonText"
+        android:background="#00000000" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/backFoodButton"
+        android:layout_below="@+id/herbivoreFoodButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="108dp"
+        android:src="@drawable/icon76_2x_back"
+        android:background="#00000000" />
+
+</RelativeLayout>

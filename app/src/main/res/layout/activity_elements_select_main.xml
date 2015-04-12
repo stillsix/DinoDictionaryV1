@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.seattleshinebox.dinodictionary.UI.elementsSelectMainActivity"
+    style="@style/AppTheme"
+    android:background="#fffff4ce"
+    android:clickable="false">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/waterElementButton"
+        android:layout_marginTop="55dp"
+        android:src="@drawable/icon76_2x_water"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#00000000" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/airElementButton"
+        android:layout_alignBottom="@+id/waterElementButton"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/icon76_2x_air"
+        android:background="#00000000" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/landElementButton"
+        android:layout_below="@+id/waterElementButton"
+        android:layout_alignRight="@+id/waterElementButton"
+        android:layout_alignEnd="@+id/waterElementButton"
+        android:layout_marginTop="97dp"
+        android:src="@drawable/icon76_2x_land"
+        android:background="#00000000" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/allElementButton"
+        android:src="@drawable/icon76_2x_all"
+        android:layout_alignTop="@+id/landElementButton"
+        android:layout_alignLeft="@+id/airElementButton"
+        android:layout_alignStart="@+id/airElementButton"
+        android:background="#00000000" />
+</RelativeLayout>

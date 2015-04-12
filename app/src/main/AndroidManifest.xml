@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.seattleshinebox.dinodictionary" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".UI.LoadActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UI.elementsSelectMainActivity"
+            android:label="@string/title_activity_elements_select_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UI.timeperiodSelectActivity"
+            android:label="@string/title_activity_timeperiod_select"
+            android:parentActivityName=".UI.elementsSelectMainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.seattleshinebox.dinodictionary.elementsSelectMainActivity" />
+        </activity>
+        <activity
+            android:name=".UI.FoodSelectActivity"
+            android:label="@string/title_activity_food_select"
+            android:parentActivityName=".UI.timeperiodSelectActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.seattleshinebox.dinodictionary.timeperiodSelectActivity" />
+        </activity>
+        <activity
+            android:name=".UI.dinoSelectActivity"
+            android:label="@string/title_activity_dino_select"
+            android:parentActivityName=".UI.timeperiodSelectActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.seattleshinebox.dinodictionary.timeperiodSelectActivity" />
+        </activity>
+    </application>
+
+</manifest>

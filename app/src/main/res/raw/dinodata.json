@@ -1,0 +1,25 @@
+{
+    "dinosaurs": {
+        "name": "Coelophysis",
+        "pronunciation": "SEE-low-FIE-sis",
+        "mainImageURL": "http://",
+        "thumbnailImageURL": "http://",
+        "audioURL": "http://",
+        "attributes": [
+            {
+                "description": "Coelophysis is one of the oldest dinosaurs discovered. Had long legs and feet so was a fast runner.",
+                "family": "test",
+                "diet": "carnivore",
+                "elements": "land",
+                "era": "triassic",
+                "size": "small: 9 feet long",
+                "intelligence": "unknown",
+                "location": "US: Arizona & New Mexico",
+                "keywords": [
+                    "fast",
+                    "small"
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,257 @@
+{
+    "dinosaurs": [
+        {
+            "name": "Coelophysis",
+            "pronunciation": "SEE-low-FIE-sis",
+            "mainImageURL": "http://",
+            "thumbnailImageURL": "http://",
+            "audioURL": "http://",
+            "description": "Coelophysis is one of the oldest dinosaurs discovered. Had long legs and feet so was a fast runner.",
+            "attributes": [
+                {
+                    "family": "test",
+                    "diet": "carnivore",
+                    "elements": "land",
+                    "era": "triassic",
+                    "size": "small: 9 feet long",
+                    "intelligence": "unknown",
+                    "location": "US: Arizona & New Mexico",
+                    "keywords": [
+                        "fast",
+                        "small"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Eoraptor",
+            "pronunciation": "EE-oh-RAP-tore",
+            "mainImageURL": "http://",
+            "thumbnailImageURL": "http://",
+            "audioURL": "http://",
+            "description": ".",
+            "attributes": [
+                {
+                    "family": "test",
+                    "diet": "carnivore",
+                    "elements": "land",
+                    "era": "triassic",
+                    "size": "small: 5 feet long",
+                    "intelligence": "unknown",
+                    "location": "Argentina",
+                    "keywords": [
+                        "fast",
+                        "small"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Herrerasaurus",
+            "pronunciation": "huh-RARE-ah-SORE-us",
+            "mainImageURL": "http://",
+            "thumbnailImageURL": "http://",
+            "audioURL": "http://",
+            "description": "Had a hinged jaw so it could open its huge mouth extra wide to swallow prey. Had notched, sharp teeth. Long hands but small, short arms.",
+            "attributes": [
+                {
+                    "family": "test",
+                    "diet": "carnivore",
+                    "elements": "land",
+                    "era": "triassic",
+                    "size": "small: 16.5 feet long",
+                    "intelligence": "unknown",
+                    "location": "Argentina",
+                    "keywords": [
+                        "big mouth",
+                        "small", "walked upright"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Lessemsaurus",
+            "pronunciation": "LESS-em-SORE-us",
+            "mainImageURL": "http://",
+            "thumbnailImageURL": "http://",
+            "audioURL": "http://",
+            "description": "Name means - Don Lessems reptile a popular American writer of childrens dino books.",
+            "attributes": [
+                {
+                    "family": "sauropad",
+                    "diet": "herbivore",
+                    "elements": "land",
+                    "era": "triassic",
+                    "size": "medium: 33 feet long",
+                    "intelligence": "unknown",
+                    "location": "Argentina",
+                    "keywords": [
+                        "big mouth",
+                        "medium", "sauropad","long neck"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Plateosaurus",
+            "pronunciation": "PLAT-ee-oh-SORE-us",
+            "mainImageURL": "http://",
+            "thumbnailImageURL": "http://",
+            "audioURL": "http://",
+            "description": "Had cheeks for stuffing their moths. Could stand on its hind legs",
+            "attributes": [
+              {
+                  "family": "sauropad",
+                  "diet": "herbivore",
+                  "elements": "land",
+                  "era": "triassic",
+                  "size": "medium: 23 feet long",
+                  "intelligence": "unknown",
+                  "location": "Northern & Central Europe",
+                  "keywords": [
+                      "big mouth",
+                      "medium", "sauropad","long neck", "stand", "cheeks"
+                  ]
+              }
+            ]
+        },
+        {
+             "name": "Riojasaurus",
+             "pronunciation": "REE-oh-hah-SORE-us",
+             "mainImageURL": "http://",
+             "thumbnailImageURL": "http://",
+             "audioURL": "http://",
+             "description": "",
+             "attributes": [
+                  {
+                      "family": "sauropads",
+                      "diet": "herbivore",
+                      "elements": "land",
+                      "era": "triassic",
+                      "size": "large: 36 feet long",
+                      "intelligence": "unknown",
+                      "location": "Argentina",
+                      "keywords": [
+                          "big mouth",
+                          "medium", "sauropad","gulper"
+                      ]
+                  }
+              ]
+        },
+        {
+            "name": "Allosaurus",
+            "pronunciation": "AL-oh-SORE-us",
+            "mainImageURL": "http://",
+            "thumbnailImageURL": "http://",
+            "audioURL": "http://",
+            "description": "Had 8inch claws. Had crests in front of each eye for protection.",
+            "attributes": [
+                {
+                    "family": "theropods",
+                    "diet": "carnivore",
+                    "elements": "land",
+                    "era": "jurassic",
+                    "size": "medium: 28 feet long",
+                    "intelligence": "unknown",
+                    "location": "US: Colorado, Montana, Utah, Wyoming",
+                    "keywords": [
+                        "fast",
+                        "crest"
+                    ]
+                }
+            ]
+        },
+        {
+             "name": "Apatosaurus",
+             "pronunciation": "uh-PAT-uh-SORE-us",
+             "mainImageURL": "http://",
+             "thumbnailImageURL": "http://",
+             "audioURL": "http://",
+             "description": "Incorrectly known as Brontosaurus.Weighed as much as two school buses. Whip-like tail.",
+             "attributes": [
+                 {
+                     "family": "sauropad",
+                     "diet": "herbivore",
+                     "elements": "land",
+                     "era": "jurassic",
+                     "size": "large: 70-90 feet long",
+                     "intelligence": "unknown",
+                     "location": "US: Colorado, Oklahoma, Utah, Wyoming",
+                     "keywords": [
+                         "Brontosaurus",
+                         "sauropad", "whip-like tail", "slow"
+                     ]
+                 }
+             ]
+        },
+        {
+             "name": "Gastonia",
+             "pronunciation": "gas-TONE-ee-ah",
+             "mainImageURL": "http://",
+             "thumbnailImageURL": "http://",
+             "audioURL": "http://",
+             "description": "Skins was covered in boney spikes.",
+             "attributes": [
+                 {
+                     "family": "ankylosaurids",
+                     "diet": "herbivore",
+                     "elements": "land",
+                     "era": "cretaceous",
+                     "size": "large: 70-90 feet long",
+                     "intelligence": "unknown",
+                     "location": "US: Utah",
+                     "keywords": [
+                         "defense",
+                         "spikes"
+                     ]
+                 }
+             ]
+        },
+        {
+            "name": "Pteranodon",
+            "pronunciation": "TER-ra-don",
+            "mainImageURL": "http://",
+            "thumbnailImageURL": "http://",
+            "audioURL": "http://",
+            "description": "Skins was covered in boney spikes.",
+            "attributes": [
+                {
+                     "family": "pterosaur",
+                     "diet": "carnivore",
+                     "elements": "air",
+                     "era": "cretaceous",
+                     "size": "small",
+                     "intelligence": "unknown",
+                     "location": "North America & Europe",
+                     "keywords": [
+                         "wings"
+                     ]
+                }
+            ]
+        },
+        {
+            "name": "Tylosaurus",
+            "pronunciation": "TIE-low-SAWR-us",
+            "mainImageURL": "http://",
+            "thumbnailImageURL": "http://",
+            "audioURL": "http://",
+            "description": "Not dinosaurs, but giant carnivorous marine reptiles. Had 4 pad like limbs",
+            "attributes": [
+                {
+                     "family": "mosaaurs",
+                     "diet": "carnivore",
+                     "elements": "water",
+                     "era": "cretaceous",
+                     "size": "medium",
+                     "intelligence": "unknown",
+                     "location": "North America & New Zealand",
+                     "keywords": [
+                         "marine", "pads", "fins"
+                     ]
+                }
+            ]
+        }
+    ]
+}
+
+	 

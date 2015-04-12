@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Dino Dictionary</string>
+    <string name="backButtonText">Back to Previous Selections</string>
+    <string name="timeperiodTitleText">Select the Time Period your Dinosaur is from</string>
+    <string name="foodsourceTitleText">Select your Dinosaur\'s Food Source</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_elements_select_main">elementsSelectMainActivity</string>
+    <string name="title_activity_timeperiod_select">timeperiodSelectActivity</string>
+    <string name="title_activity_food_select">FoodSelectActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_dino_select">dinoSelectActivity</string>
+    <string name="herbivoreButtonText">Herbivore</string>
+    <string name="carnivoreButtonText">Carnivore</string>
+
+</resources>

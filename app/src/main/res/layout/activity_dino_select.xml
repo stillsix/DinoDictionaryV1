@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.seattleshinebox.dinodictionary.UI.dinoSelectActivity"
+    android:background="#fffff4ce">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/backDinoSelectButton"
+        android:src="@drawable/icon76_2x_back"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/waterDinoSelectButton"
+        android:layout_toStartOf="@+id/waterDinoSelectButton"
+        android:background="#00000000" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/waterDinoSelectButton"
+        android:src="@drawable/icon76_2x_water"
+        android:layout_toStartOf="@+id/airDinoSelectButton"
+        android:layout_below="@+id/herbivoreDinoSelectButton"
+        android:layout_toLeftOf="@+id/airDinoSelectButton"
+        android:background="#00000000" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/airDinoSelectButton"
+        android:layout_alignBottom="@+id/waterDinoSelectButton"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/icon76_2x_air"
+        android:background="#00000000" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/carnivoreDinoSelectButton"
+        android:src="@drawable/icon76_2x_carnivore"
+        android:layout_toStartOf="@+id/waterDinoSelectButton"
+        android:layout_alignTop="@+id/backDinoSelectButton"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="#00000000" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/herbivoreDinoSelectButton"
+        android:layout_toStartOf="@+id/carnivoreDinoSelectButton"
+        android:src="@drawable/icon76_2x_herbivore"
+        android:focusableInTouchMode="false"
+        android:layout_alignTop="@+id/carnivoreDinoSelectButton"
+        android:layout_toLeftOf="@+id/carnivoreDinoSelectButton"
+        android:background="#00000000" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton3"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/icon76_2x_jurassic"
+        android:background="#00000000" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Continue"
+        android:id="@+id/testButton1"
+        android:layout_above="@+id/imageButton3"
+        android:layout_toLeftOf="@+id/airDinoSelectButton"
+        android:layout_toStartOf="@+id/airDinoSelectButton"
+        android:layout_marginBottom="66dp" />
+
+</RelativeLayout>

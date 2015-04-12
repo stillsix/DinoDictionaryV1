@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.seattleshinebox.dinodictionary.UI.timeperiodSelectActivity"
+    style="@style/AppTheme"
+    android:background="#fffff4ce">
+
+    <TextView
+        android:text="@string/timeperiodTitleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/timeperiodTitleText"
+        android:layout_marginTop="154dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/clockImageView"
+        android:src="@drawable/clock"
+        android:layout_marginBottom="42dp"
+        android:layout_alignBottom="@+id/timeperiodTitleText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/triassicTimeButton"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/icon76_2x_triassic"
+        android:background="#00000000" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/jurassicTimeButton"
+        android:src="@drawable/icon76_2x_jurassic"
+        android:layout_below="@+id/triassicTimeButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#00000000" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/herbivoreFoodButton"
+        android:src="@drawable/icon76_2x_cretaceous"
+        android:layout_alignTop="@+id/jurassicTimeButton"
+        android:layout_alignRight="@+id/clockImageView"
+        android:layout_alignEnd="@+id/clockImageView"
+        android:background="#00000000" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/backTimeButton"
+        android:src="@drawable/icon76_2x_back"
+        android:layout_below="@+id/jurassicTimeButton"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/backButtonText"
+        android:background="#00000000" />
+
+</RelativeLayout>

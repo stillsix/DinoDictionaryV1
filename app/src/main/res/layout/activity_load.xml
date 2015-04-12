@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoadActivity"
+    style="@style/AppTheme"
+    android:background="#fffff4ce">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/app_name"
+        android:id="@+id/loadTitle"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/clockImageView"
+        android:src="@drawable/loaddinosaurs"
+        android:scaleType="fitXY"
+        android:layout_below="@+id/loadTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="77dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="Dino Dictionary"/>
+
+</RelativeLayout>
