@@ -1,25 +1,50 @@
 {
-    "dinosaurs": {
-        "name": "Coelophysis",
-        "pronunciation": "SEE-low-FIE-sis",
-        "mainImageURL": "http://",
-        "thumbnailImageURL": "http://",
-        "audioURL": "http://",
-        "attributes": [
-            {
-                "description": "Coelophysis is one of the oldest dinosaurs discovered. Had long legs and feet so was a fast runner.",
-                "family": "test",
-                "diet": "carnivore",
-                "elements": "land",
-                "era": "triassic",
-                "size": "small: 9 feet long",
-                "intelligence": "unknown",
-                "location": "US: Arizona & New Mexico",
-                "keywords": [
-                    "fast",
-                    "small"
-                ]
-            }
-        ]
-    }
+    "dinosaurs": [
+        {
+            "name": "Coelophysis",
+            "pronunciation": "SEE-low-FIE-sis",
+            "mainImageURL": "http://",
+            "thumbnailImageURL": "http://",
+            "audioURL": "http://",
+            "description": "Coelophysis is one of the oldest dinosaurs discovered. Had long legs and feet so was a fast runner.",
+            "attributes": [
+                {
+                    "family": "test",
+                    "diet": "carnivore",
+                    "elements": "land",
+                    "era": "triassic",
+                    "size": "small: 9 feet long",
+                    "intelligence": "unknown",
+                    "location": "US: Arizona & New Mexico",
+                    "keywords": [
+                        "fast",
+                        "small"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "2Coelophysis",
+            "pronunciation": "2SEE-low-FIE-sis",
+            "mainImageURL": "http://",
+            "thumbnailImageURL": "http://",
+            "audioURL": "http://",
+            "description": "2Coelophysis is one of the oldest dinosaurs discovered. Had long legs and feet so was a fast runner.",
+            "attributes": [
+                {
+                    "family": "t2est",
+                    "diet": "2carnivore",
+                    "elements": "2land",
+                    "era": "2triassic",
+                    "size": "2small: 9 feet long",
+                    "intelligence": "2unknown",
+                    "location": "US: Arizona & New Mexico",
+                    "keywords": [
+                        "fast",
+                        "small"
+                    ]
+                }
+            ]
+        }
+    ]
 }
